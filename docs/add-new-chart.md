@@ -14,4 +14,4 @@
 5. `$ git add . && git commit -m "commit note" && git push origin master` 
     > Push the git repository on GitHub
 
-* [Note: Whenever you need to add a new chart to the Helm chart repository, it’s mandatory for you to regenerate the index.yaml file. The `$ helm repo index` command will completely rebuild the index.yaml file from scratch, including only the charts that it finds locally, which very likely is your case. However, it worth notice that you can use the --merge flag to incrementally add new charts to an existing index.yaml >> `$ helm repo index --url https://mattiaperi.github.io/helm-chart/ --merge index.yaml .`]
+* Note: Whenever you need to add a new chart to the Helm chart repository, it’s mandatory for you to regenerate the index.yaml file. The `$ helm repo index` command will completely rebuild the index.yaml file from scratch, including only the charts that it finds locally, which very likely is your case. However, it worth notice that you can use the --merge flag to incrementally add new charts to an existing index.yaml >> `$ helm repo index --url https://mattiaperi.github.io/helm-chart/ --merge index.yaml .`
