@@ -1,4 +1,4 @@
-# Instructions to add new chart
+# Instructions to Add a New Chart
 
 1. `$ helm create helm-chart-name`
 
