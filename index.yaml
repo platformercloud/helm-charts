@@ -1,14 +1,14 @@
 apiVersion: v1
 entries:
-  helm-chart-test:
+  sample-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-04-26T19:46:37.607441+05:30"
+    created: "2021-04-26T20:42:20.318757+05:30"
     description: A Helm chart for Kubernetes
-    digest: 34ca8f289bea16aa4dbace5cc0fc2ef338cd545b67592daf1627a08ac20d3fc1
-    name: helm-chart-test
+    digest: 48c203115842772b87199d52c9dd608c887f27d4147e9fd1b788a2e16adc8a8c
+    name: sample-chart
     type: application
     urls:
-    - https://github.com/platformercloud/helm-charts/helm-chart-test-0.1.0.tgz
+    - https://github.com/platformercloud/helm-charts/sample-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-26T19:46:37.606649+05:30"
+generated: "2021-04-26T20:42:20.314219+05:30"
