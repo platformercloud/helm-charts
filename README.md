@@ -11,4 +11,6 @@ This repo publishes helm charts for Platformer Cloud.
 
 # List Down Available Charts
 
-    ```$ helm search repo platformer```
+```
+    $ helm search repo platformer
+```
