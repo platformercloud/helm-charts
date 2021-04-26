@@ -6,11 +6,6 @@ This repo publishes helm charts for Platformer Cloud.
 
 ```
     1. $ helm repo add platformer https://platformercloud.github.io/helm-charts/
-    2. $ helm install sample-chart platformer/sample-chart
-```
-
-<h3> List Down Available Charts </h3>
-
-```
-    $ helm search repo platformer
+    2. $ helm search repo platformer # This will list down all the available charts e.g: <mark>platformer/sample-chart</mark>
+    3. $ helm install sample-chart platformer/sample-chart
 ```
