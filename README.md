@@ -2,7 +2,11 @@
 
 This repo publishes helm charts for Platformer Cloud.
 
-<h3> Steps to Install Charts </h3>
+### Prerequisites
+
+* Helm 3.0+
+
+### Steps to Install Charts
 
 ```
     1. $ helm repo add platformer https://platformercloud.github.io/helm-charts/
