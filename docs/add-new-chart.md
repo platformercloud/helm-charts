@@ -10,7 +10,6 @@
 
 4. `$ helm repo index --url https://github.com/platformercloud/helm-charts/ .`
     > Create the Helm chart repository index. A repository is characterized primarily by the presence of a special file called index.yaml that has a list of all of the packages supplied by the repository, together with metadata that allows retrieving and verifying those packages.
-    - 
 
 5. `$ git add . && git commit -m "commit note" && git push origin master` 
     > Push the git repository on GitHub
