@@ -2,12 +2,12 @@
 
 1. `$ git clone https://github.com/platformercloud/helm-charts.git && cd helm-charts`
 
-2. `$ helm create helm-chart-name`
+2. `$ helm create <helm-chart-name>`
 
-3. `$ helm lint helm-chart-name`
+3. `$ helm lint <helm-chart-name>`
     > As a good habit, helm lint runs a series of tests to verify that the chart is well-formed
 
-4. `$ helm package helm-chart-name/*`
+4. `$ helm package <helm-chart-name>/*`
     > This will create the package in order to publish the helm chart. e.g: helm-chart-name-0.1.0.tgz
 
 5. `$ helm repo index --url https://github.com/platformercloud/helm-charts/ .`
